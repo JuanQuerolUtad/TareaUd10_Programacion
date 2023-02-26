@@ -39,7 +39,7 @@ public class Alumno {
 		this.curso = curso;
 	}
 	/*modifica el numero de asignaturas*/
-	public void cambiarasignaturas(int asignaturas) {
+	public void cambiarAsignaturas(int asignaturas) {
 		this.notas= new int[asignaturas];
 	}
 	/*elimina todas las notas puestas*/
